@@ -1,4 +1,34 @@
-.instagram-phone {
-    background-image: url(./img/phone-frame.png)
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(250,250,250);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
+.instagram-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 935px;
+    width: 60%;
+    /* height: 100vh; */
+}
+
+.instagram-phone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.instagram-phone img {
+    
+}
+
+.instagram-continue {
+    width: 50%;
 }
