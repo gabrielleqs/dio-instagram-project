@@ -1,3 +1,10 @@
+/* TODO:
+ 1 - fazer animação dos prints na tela
+ 2 - ajustar responsifidade do main
+ 3 - ajustar responsividade do footer
+ 4 - implantar modo noturno
+ */
+
 body {
     width: 100%;
     min-height: 100vh;
@@ -15,7 +22,6 @@ body {
     display: flex;
     justify-content: space-around;
     margin: 32px auto 0;
-    /* align-items: stretch; */
 }
 
 .instagram-wrapper {
@@ -24,20 +30,35 @@ body {
     justify-content: space-around;
     max-width: 935px;
     width: 100%;
-    /* padding-bottom: 32px; */
-    /* height: 100vh; */
 }
 
 .instagram-phone {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 50%;
 }
 
-.instagram-phone img {
-    height: 40rem;
+.phone-frame {
+    background-image: url(C://workspace/dio/5-landing-page-instagram/dio-instagram-project/assets/img/phone-frame.png);
+    background-size: 468.32px 634.15px;
+    background-position: -46px 0;
+    position: sticky;
+    width: 380.31px;
+    height: 581.14px;
+    margin: 0px 32px 12px 0px;
 }
+
+.instagram-phone-screen {
+    position: absolute;
+    top: 4.7%;
+    left: 29.5%;
+    height: 538.90px;
+    width: 250px;
+}
+
+/* .transition img{
+    transition: opacity 1s ease-in-out;
+} */
 
 .instagram-continue {
     display: flex;
@@ -51,8 +72,6 @@ body {
     max-width: 350px;
     background-color: #ffffff;
     border: 1px solid #DBDBDB;
-    /* padding: 10px 0px; */
-
 }
 
 .instagram-logo {
